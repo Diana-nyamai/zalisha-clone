@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 body{
-    color: #212121;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffff;
+    overflow-x: hidden;
+   
 }
 nav{
     background: #00c853;
     padding: 5px 20px;
-    border: 1px solid black;
 }
-.logo a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text{
+    color: #e60023;
+    font-size: 20px;
+    
 }
 .logo a:hover{text-decoration: none;}
 ul{
@@ -33,11 +34,6 @@ a:hover{
     font-size: 16px;
     font-weight: 700;
     padding: 8px 12px;
-}
-.items{
-    background: white;
-    height: 100%;
-    z-index: 1;
 }
 .menu li a{
     display: block;
@@ -157,3 +153,50 @@ a:hover{
         padding-right: 0;
     }
 }
+
+/* side navbar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-right .5s;
+    padding: 16px;
+    margin-left: 900px;
+    margin-top: -40px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

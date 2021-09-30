@@ -1,0 +1,19 @@
+.main-color{
+    color: #00c853;
+}
+.background{
+    color: #fafafa;
+}
+.bluetext{
+    color: #2196f3;
+}
+.blacktext{
+    color: #212121;
+}
+btbcolor{
+    color: #212121;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+}
