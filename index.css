@@ -8,11 +8,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 nav{
-    background: none;
+    background:#00c853;
     padding: 5px 20px;
 }
 .text{
-    color: black;
+    color: #212121;
     font-size: 20px;
     
 }
@@ -49,6 +49,8 @@ a:hover{
 }
 .toggle{
     order: 1;
+    background: white;
+    border-radius: 5px;
 }
 .item{
     width: 100%;
@@ -56,21 +58,18 @@ a:hover{
     order: 3;
     display: none;
 }
-.item.active{
-    display: block;
-}
 .toggle{
    cursor: pointer;
 }
 .bars{
-    background: #999;
+    background: #00c853;
     display: inline-block;
     height: 2px;
     position: relative;
     width: 18px;
 }
 .bars::before,.bars::after{
-    background: #999;
+    background:#00c853;
     content: "";
     display: inline-block;
     height: 2px;
@@ -100,29 +99,7 @@ a:hover{
     .toggle{
         order: 2;
     }
-    .button.secondary{
-        border: 0;
-    }
-    .button a{
-        text-decoration: none;
-        background-color: #e60023;
-        padding: 8px 12px;
-        border-radius: 24px;
-        color: #fff;
-    }
-    .button.secondary a{
-        background: #efefef;
-        color: #000;
-    }
-    .button a:hover{
-        transition: all .25s;
-    }
-    .button:not(.secondary) a:hover{
-        background: #ad081b;
-    }
-    .button.secondary a:hover{
-        background: #e2e2e2;
-    }
+   
 }
 @media all and (min-width: 768px){
     .item{
@@ -137,9 +114,6 @@ a:hover{
     }
     .item{
         order: 1;
-    }
-    .button{
-        order: 2;
     }
     .menu li{
         padding: 15px 10px;
@@ -157,7 +131,7 @@ a:hover{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: #fff;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
