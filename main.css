@@ -4,11 +4,7 @@ section{
     align-items: center;
     height: 100vh;
 }
-.left-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .main-container{
     display: flex;
     position: relative;
@@ -19,6 +15,11 @@ section{
     .main-container{
         min-height: 500px;
     }
+}
+.left-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container-content{
     margin: 0 60px;
