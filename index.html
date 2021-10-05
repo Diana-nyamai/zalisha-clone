@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <title>zalisha</title>
     <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./main.css">  
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  
+  <!-- navigation bar -->
     <nav>
         <ul class="menu" id="menu">
             <li  class="logo"><a href=""><img src="./logo.png" alt="logo" width="30" height="30"> 
@@ -33,6 +39,44 @@
         </li>    
         </ul>
         </nav>
+        <!-- end of navigation bar -->
+
+        <!-- main content -->
+        <main>
+           <section>
+               <div class="main-container">
+                   <div class="left-container">
+                       <div class="container-content">
+                           <h1>BECOME A DIGITAL FARMER</h1>
+                           <h4>Join the fastest growing digital farming platform</h4>
+                           <p>Why struggle to <b> access information, markets , finance </b>or do <b> record keeping </b>in your farm? With <b>zalisha</b>  we give you the platform you need to enable your growth</p>
+                           <div class="btn"><input type="submit" value="JOIN NOW"></div>
+                           
+                       </div>
+                           
+                   </div>
+                   <div class="right-container">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">Slide 1</div>
+                          <div class="swiper-slide">Slide 2</div>
+                          <div class="swiper-slide">Slide 3</div>
+                          <div class="swiper-slide">Slide 4</div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                   </div>
+               </div>
+           </section>
+
+
+          
+      
+           </main>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
       <script src="./index.js"></script>
 </body>
 </html>
