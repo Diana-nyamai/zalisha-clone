@@ -12,8 +12,10 @@ nav{
     padding: 5px 20px;
 }
 .text{
-    color: #212121;
+    color: #fff;
     font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
     
 }
 .logo a:hover{text-decoration: none;}
@@ -22,7 +24,10 @@ ul{
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-size: .875rem;
+ 
+
 }
 a:hover{
     text-decoration: underline;
@@ -31,15 +36,14 @@ a:hover{
     font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 16px;
     font-weight: 700;
-    padding: 8px 12px;
+    padding: 10px 12px;
 }
 .menu li a{
     display: block;
 }
-.button.secondary{
-    border-bottom: 1px solid #efefef;
+.item{
+    background: #2dd271;
 }
-
 /* mobile menu */
 .menu{
     display: flex;
@@ -140,21 +144,22 @@ a:hover{
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 1rem;
+    color: #757575;
+    padding-left: 20px;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    background: #e5e5e5;
   }
   
   .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 1rem;
     margin-left: 50px;
   }
   
