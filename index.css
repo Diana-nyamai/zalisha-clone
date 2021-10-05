@@ -8,14 +8,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 nav{
-    background: #00c853;
+    background: none;
     padding: 5px 20px;
-    border: 1px solid black;
 }
-.logo a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text{
+    color: #e60023;
+    font-size: 20px;
+    
 }
 .logo a:hover{text-decoration: none;}
 ul{
@@ -33,11 +32,6 @@ a:hover{
     font-size: 16px;
     font-weight: 700;
     padding: 8px 12px;
-}
-.items{
-    background: white;
-    height: 100%;
-    z-index: 1;
 }
 .menu li a{
     display: block;
