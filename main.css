@@ -53,6 +53,17 @@ section{
     height: calc(100% - 80px);
     padding: 40px;
 }
+@media all and (max-width: 991px){
+    .main-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-container{
+        display: none;
+    }
+}
+
 
 /* caropusel styling */
 .swiper {
