@@ -60,7 +60,7 @@ section{
 
 /* caropusel styling */
 .swiper {
-    width: 900px;
+    width: 500px;
     height: 100%;
     padding: 0 40px 0 0;
   }
@@ -87,7 +87,7 @@ section{
 
   .swiper-slide img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: 100%;
     
   }
