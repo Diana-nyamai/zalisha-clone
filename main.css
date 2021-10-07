@@ -11,11 +11,7 @@ section{
     min-height: 600px;
     min-width: 100%;
 }
-@media all and (max-width:1154px){
-    .main-container{
-        min-height: 500px;
-    }
-}
+
 .left-container{
     display: flex;
     justify-content: center;
