@@ -2,14 +2,16 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 80vh;
+    overflow: hidden;
 }
 
 .main-container{
     display: flex;
     position: relative;
-    min-height: 600px;
+    min-height: 700px;
     min-width: 100%;
+    z-index: 1;
 }
 
 .left-container{
@@ -20,7 +22,7 @@ section{
 .container-content{
     margin: 0 60px;
     background: #fff;
-    height: calc(100% - 80px);
+    height: calc(100% - 250px);
     padding: 40px;
 }
 .container-content h1{
@@ -67,10 +69,17 @@ section{
 
 /* caropusel styling */
 .swiper {
-    width: 500px;
+    width: 900px;
     height: 100%;
     padding: 0 40px 0 0;
+    z-index: 1;
+    overflow: hidden;
   }
+@media all and (max-width: 1400px){
+    .swiper{
+        width: 400px;
+    }
+}
 
   .swiper-slide {
     text-align: center;
@@ -97,4 +106,50 @@ section{
     width: 50%;
     height: 100%;
     
+  }
+
+  /* second section */
+  .main-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px 0;
+  }
+  .main{
+      display: flex;
+     flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 57%;
+      text-align: center;
+  }
+  @media all and (max-width: 900px){
+    .main{
+        width: 80%;
+    }
+    .main p{
+        font-size: 24px;
+    }
+  }
+  .main h4,p{
+      padding-top: 20px;
+  }
+  .main h4{
+      color: #4caf50;
+      font-size: 34px;
+  }
+  .main p{
+    font-size: 34px;
+    font-weight: 400;
+  }
+  .main input[type="submit"]{
+      margin-top: 20px;
+      padding: 5px 20px;
+      height: 36px;
+      color: white;
+      font-weight: 600;
+      background: #4caf50;
+      outline: none;
+      border: none;
+      border-radius: 4px;
   }
