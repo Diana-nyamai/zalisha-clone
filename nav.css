@@ -16,19 +16,19 @@ nav{
     z-index: 1000;
 }
 .text{
-    color: #fff;
+    color: #fff !important;
     font-size: 20px;
     font-size: 1.25rem;
     font-weight: 500;
     
 }
-.logo a:hover{text-decoration: none;}
+.logo a:hover{text-decoration: none !important;}
 ul{
     list-style-type: none;
 }
 a{
-    text-decoration: none;
-    color: #fff;
+    text-decoration: none !important;
+    color: #fff !important;
     font-size: .875rem;
  
 
