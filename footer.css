@@ -69,12 +69,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     height: 44px;
     line-height: 43px;
     background: transparent;
-    border: 1px solid #e2e2eb;
     font-size: 24px;
 }
 .f_social_icon a {
-    width: 46px;
-    height: 46px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     font-size: 14px;
     line-height: 45px;
@@ -100,18 +99,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     content: "\e731";
 }
 
-.btn_get_two {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    background: #5e2ced;
-    border-color: #5e2ced;
-    color: #fff;
-}
-
-.btn_get_two:hover {
-    background: transparent;
-    color: #5e2ced;
-}
 
 .new_footer_top .f_social_icon a:hover {
   color:white;
