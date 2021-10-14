@@ -244,15 +244,14 @@
 }
 @media all and (max-width: 1500px){
     .left-img img{
-        width: 400px;
+        width: 500px;
     }
     .right-img img{
-        margin: 20px;
-        width: 400px;
+        width: 500px;
     }
 }
-@media all and (max-width: 897px){
+@media all and (max-width: 1099px){
     .right-img img{
-        
+        margin: 20px;
     }
 }
