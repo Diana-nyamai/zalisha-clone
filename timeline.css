@@ -242,16 +242,17 @@
     align-items: center;
     width: 700px;
 }
-@media all and (max-width: 1080px){
+@media all and (max-width: 1500px){
     .left-img img{
         width: 400px;
     }
     .right-img img{
+        margin: 20px;
         width: 400px;
     }
 }
 @media all and (max-width: 897px){
     .right-img img{
-        margin-top: 30px;
+        
     }
 }
