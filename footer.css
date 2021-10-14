@@ -121,6 +121,32 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     color: #fff;
 }
 
+.mail{
+    display: flex;
+    flex-direction: row;
+}
+.mail ul li{
+    color: white;
+    font-size: 13px;
+}
+.mail ul li:not(:first-child){
+    color: #b2c9c5;
+    font-weight: 500;
+}
+.m-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-icon a{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+}
+.tel a{
+    color: #1773c7 !important;
+    text-decoration: underline !important;
+}
 
 
 
