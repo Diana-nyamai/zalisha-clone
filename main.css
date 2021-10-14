@@ -8,22 +8,29 @@ section{
 
 .main-container{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: relative;
     min-height: 700px;
     min-width: 100%;
     z-index: 1;
 }
 
-.left-container{
+.left-contain{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+@media all and (max-width:1300px){
+    .left-contain{
+        max-width: 50%;
+    }
+}
 .container-content{
-    margin: 0 60px;
+    margin: 0 30px;
     background: #fff;
     height: calc(100% - 250px);
-    padding: 40px;
+    padding: 20px;
 }
 .container-content h1{
     padding: 20px;
@@ -61,7 +68,7 @@ section{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .left-container{
+    .left-contain{
         display: none;
     }
 }
