@@ -6,7 +6,7 @@
 body{
     color: #212121;
     font-family: 'Roboto', sans-serif;
-    background: #fafafa;
+    background: #fafafa !important;
     overflow-x: hidden;
 }
 nav{
