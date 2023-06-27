@@ -2,6 +2,9 @@
 
 This project is a frontend clone of the Zalisha website, developed using HTML, CSS, and JavaScript. It aims to replicate the visual and functional aspects of the original website. This README file provides an overview of the project structure and instructions for running and customizing the Zalisha Clone.
 
+## Live Demo
+
+Checkout the live version of the Executive Matchmaking website [Here](https://zalisha-clone.netlify.app/)
 ## Features
 
 The Zalisha Clone includes the following features:
